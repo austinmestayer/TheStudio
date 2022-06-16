@@ -9,25 +9,49 @@ const Container = styled.div`
     overflow: hidden;
 
     letter-spacing: 1px;
-    font-size: 60px;
     font-weight: 800;
     color: white;
+
+    @media (min-width: 200px) {
+      font-size: 5vw;
+    } 
+
+    @media (min-width: 768px) {
+      font-size: 5vw;
+    }  
 `
 
 const Image = styled.img`
     height: 50%;
     width: 100%
+     
 `
 
 const LineOne = styled.span`
     position: absolute;
-    top: 29%;
-    left: 5%;
+    
+
+    @media (min-width: 200px) {
+      top: 25%;
+      left: 5%;
+    } 
+
+    @media (min-width: 768px) {
+      top: 28%;
+      left: 5%;
+    }  
 `
 const LineTwo = styled.span`
     position: absolute;
-    top: 35%;
-    left: 5%;
+
+    @media (min-width: 200px) {
+      top: 33%;
+      left: 5%;
+    } 
+    @media (min-width: 768px) {
+      top: 35%;
+      left: 5%;
+    }  
 `
 
 function Body() {

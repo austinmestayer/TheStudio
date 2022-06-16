@@ -8,11 +8,41 @@ const Container = styled.div`
     background-color: #181e21;
 
 `
+// placeholder for allowing scroll testing for device scaling
 
 function Menu() {
   return (
     <Container>
-        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     </Container>
   )
 }

@@ -9,6 +9,7 @@ const Home = () => {
     <div>
         <Navbar/>
         <Body/>
+        <Menu/>
     </div>
   )
 }
