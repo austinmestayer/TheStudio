@@ -1,0 +1,11 @@
+.navbar-solid {
+    background-color: #2f3e46;
+  
+    transition: background-color 200ms linear;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+   
+    transition: background-color 200ms linear;
+}
